@@ -1,0 +1,86 @@
+.app {
+    min-height: 100vh;
+    margin: auto;
+    background-color: whitesmoke !important;
+    max-width: 500px !important;
+}
+
+.nav {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.curveBottom {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.logOut {justify-content: end;}
+
+.page {
+    padding: 5px 40px 40px;
+}
+.page > div {
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.submitForm {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.submitForm > div {
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.listLink {
+    width: 100%;
+    text-decoration: none !important;
+}
+
+/* color */
+.superDarkBlue {color: #2F3080 !important;}
+.darkBlue {color: #5D5FEF !important;}
+.almostDarkBlue {color: #7879F1 !important;}
+.ligthBlue {color: #A5A6F6 !important;}
+.bgSuperDarkBlue {background-color: #2F3080 !important;}
+.bgDarkBlue {background-color: #5D5FEF !important;}
+.bgAlmostDarkBlue {background-color: #7879F1 !important;}
+.bgLightBlue {background-color: #A5A6F6 !important;}
+/* .bgSuperLightBlue {background-color: #E6E6FB !important;} */
+
+.darkPink {color: #FF2B98 !important;}
+.almostDarkPink {color: #EF5DA8 !important;}
+.ligthPink {color: #F178B6 !important;}
+.bgDarkPink {background-color: #FF2B98 !important;}
+.bgAlmostDarkPink {background-color: #EF5DA8 !important;}
+.bgLightPink {background-color: #F178B6 !important;}
+/* .bgSuperLightPink {background-color: #FCDDEC !important;} */
+
+.bgWhite {background-color: #FFFFFF !important;}
+.bgWhiteSmoke {background-color: whitesmoke !important;}
+.white {color: white;}
+.black {color: #000000;}
+
+/* font */
+.superBold {font-weight: bold !important;}
+.removeUnderLineLink {text-decoration: none !important;}
+
+/* size */
+.maxWidth200px {max-width: 200px !important;}
+.maxWidth175px {max-width: 175px !important;}
+.halfWidth {width: 50% !important;}
+.fullWidth {width: 100% !important;}
+.maxHeight200px {max-height: 200px !important;}
+.height150px {height: 150px;}
+
+/* position */
+.positionFixed {position: fixed;}
+.marginTop {margin-top: 70px;}
+
+.h4M {
+    font-size: large;
+}
