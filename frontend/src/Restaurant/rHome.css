@@ -1,0 +1,121 @@
+/* rHome */
+
+#profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin: 10px 0px;    
+}
+
+#profile > * {
+    width: 100%;
+    margin: 10px 0px 0px;
+    text-align: center;
+}
+
+/* edit your menu */
+.allMenu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.allMenu > * {margin: 10px 0;}
+
+.recommended {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+.recommended > * {
+    margin: 0 10px 10px;
+    flex-grow: 1;
+}
+.recommendedCard {
+    width: 150px;
+}
+.recommendedImg {
+    height: 100px;
+    object-fit: cover;
+}
+.recommendedNumbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.categoryCardMenuRes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3px 0;
+}
+.categoryCardMenuRes:hover {color: #5D5FEF;}
+
+/*
+Edit your restaurant
+*/
+.uploadImage {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.uploadImage > * {
+    margin: 10px;
+}
+
+.imgProfile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.imgRes {
+    width: 50%;
+    min-width: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.openingHours {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.openingHours > * {
+    margin: 10px;
+}
+
+.selectDate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.selectDate > * {
+    margin: 5px;
+}
+
+.selectTime {
+    width: 150px;
+    background-color: white;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tags > * {
+    width: 150px;
+}
